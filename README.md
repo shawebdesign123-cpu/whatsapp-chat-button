@@ -2,7 +2,15 @@
 
 A simple, responsive floating WhatsApp chat button built with **HTML, CSS, and SVG**. Add a WhatsApp contact button to your website so visitors can start a conversation with your business using a pre-filled message.
 
-## Features
+## 🚀 Live Demo
+
+**Click below to preview the live project.**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shawebdesign.com/)
+
+🔗 **Preview:** [https://shawebdesign.com/](https://shawebdesign.com/)
+
+## ✨ Features
 
 - Floating WhatsApp button fixed to the bottom-right corner.
 - Opens a direct WhatsApp chat using the Click to Chat URL.
@@ -10,34 +18,38 @@ A simple, responsive floating WhatsApp chat button built with **HTML, CSS, and S
 - Responsive design for desktop and mobile devices.
 - Custom SVG WhatsApp icon without additional icon libraries.
 - Smooth hover animation and shadow effects.
-- Easy to integrate into any HTML, PHP, or WordPress website.
+- Easy integration with HTML, PHP, and WordPress websites.
+- Accessible label and keyboard focus styling.
 
-## Preview
+## 🛠️ Technologies Used
 
-The button appears as a green circular WhatsApp icon in the bottom-right corner of the screen and remains visible while scrolling.
+- HTML5
+- CSS3
+- SVG
+- WhatsApp Click to Chat
 
-## Installation and Setup
+## 📦 Installation and Setup
 
 ### Step 1: Create Your WhatsApp Link
 
-WhatsApp Click to Chat lets visitors open a conversation without saving your phone number.
+WhatsApp Click to Chat allows visitors to open a conversation with your business without saving your phone number.
 
-**Format your phone number:**
+**Format your phone number**
 
 Use your country code followed by your phone number, without the `+` sign, spaces, hyphens, or leading zeros.
 
 Example for Sri Lanka:
 
-- Phone number: `071 234 5678`
+- Local number: `071 234 5678`
 - International format: `94712345678`
 
-**Basic WhatsApp link:**
+**Basic WhatsApp link**
 
 ```text
 https://wa.me/94712345678
 ```
 
-**WhatsApp link with a pre-filled message:**
+**WhatsApp link with a pre-filled message**
 
 ```text
 https://wa.me/94712345678?text=Hello%20Priyadi%20Nature%20Food%2C%20I%20have%20an%20inquiry%20about%20your%20products
@@ -73,7 +85,7 @@ Add the following HTML to your website template, preferably before the closing `
 
 ### Step 3: Add the CSS
 
-Add these styles to your main CSS file, such as `style.css`.
+Add the following styles to your main stylesheet, such as `style.css`.
 
 ```css
 /* Floating WhatsApp Button */
@@ -93,9 +105,10 @@ Add these styles to your main CSS file, such as `style.css`.
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: background-color 0.3s ease,
-              transform 0.3s ease,
-              box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Hover Effect */
@@ -127,9 +140,9 @@ Add these styles to your main CSS file, such as `style.css`.
 }
 ```
 
-## WordPress Integration
+## 🖥️ WordPress Integration
 
-If your website uses WordPress or WooCommerce, you can either add the HTML and CSS manually to your theme or use a plugin.
+If your website uses WordPress or WooCommerce, you can integrate the button manually or use a plugin.
 
 1. Log in to your WordPress dashboard.
 2. Navigate to **Plugins → Add New Plugin**.
@@ -137,44 +150,38 @@ If your website uses WordPress or WooCommerce, you can either add the HTML and C
 4. Install and activate the plugin.
 5. Configure your WhatsApp phone number and greeting message.
 
-Avoid adding the manual button and a plugin-generated button simultaneously, as this may display duplicate buttons.
+Avoid enabling both the manual button and a plugin-generated button simultaneously, as this may display duplicate buttons.
 
-## Testing
-
-After implementation, verify the following:
+## ✅ Testing Checklist
 
 - [ ] The WhatsApp button appears in the bottom-right corner.
 - [ ] The button remains visible when scrolling.
 - [ ] Clicking the button opens WhatsApp.
 - [ ] The correct business phone number is displayed.
 - [ ] The pre-filled message appears correctly.
-- [ ] The layout works on desktop and mobile.
-- [ ] The button works with keyboard navigation.
+- [ ] The layout works on desktop and mobile devices.
+- [ ] The button supports keyboard navigation.
+- [ ] The Live Demo badge opens the deployed website.
 
-## Customization
+## 🎨 Customization
 
 | Property | Description |
 |---|---|
 | Phone number | Set your WhatsApp number in international format. |
 | Message | Change the URL-encoded pre-filled message. |
-| `background-color` | Change the button's background color. |
+| `background-color` | Change the button background color. |
 | `width` and `height` | Adjust the button size. |
-| `bottom` and `right` | Change the button's position. |
-| `border-radius` | Adjust the button's shape. |
+| `bottom` and `right` | Change the button position. |
+| `border-radius` | Adjust the button shape. |
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- SVG
-- WhatsApp Click to Chat
-
-## License
+## 📄 License
 
 This project is available for personal and commercial use. You may modify and integrate the code into your own website.
 
 ---
 
-**Developed for:** Priyadi Nature Food
+**Live Website:** [shawebdesign.com](https://shawebdesign.com/)
 
-**Purpose:** Make it easy for website visitors to contact the business directly through WhatsApp.
+**Project:** Floating WhatsApp Chat Button
+
+**Purpose:** Make it easy for website visitors to contact a business directly through WhatsApp.
