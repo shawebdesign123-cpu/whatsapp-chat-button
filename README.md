@@ -6,9 +6,11 @@ A simple, responsive floating WhatsApp chat button built with **HTML, CSS, and S
 
 **Click below to preview the live project.**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shawebdesign.com/)
+<a href="https://shawebdesign.com/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Live-Demo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo">
+</a>
 
-🔗 **Preview:** [https://shawebdesign.com/](https://shawebdesign.com/)
+🔗 **Website:** <a href="https://shawebdesign.com/" target="_blank" rel="noopener noreferrer">https://shawebdesign.com/</a>
 
 ## ✨ Features
 
@@ -161,7 +163,7 @@ Avoid enabling both the manual button and a plugin-generated button simultaneous
 - [ ] The pre-filled message appears correctly.
 - [ ] The layout works on desktop and mobile devices.
 - [ ] The button supports keyboard navigation.
-- [ ] The Live Demo badge opens the deployed website.
+- [ ] The Live Demo badge opens the deployed website in a new tab when rendered HTML permits it.
 
 ## 🎨 Customization
 
@@ -180,7 +182,7 @@ This project is available for personal and commercial use. You may modify and in
 
 ---
 
-**Live Website:** [shawebdesign.com](https://shawebdesign.com/)
+**Live Website:** <a href="https://shawebdesign.com/" target="_blank" rel="noopener noreferrer">shawebdesign.com</a>
 
 **Project:** Floating WhatsApp Chat Button
 
